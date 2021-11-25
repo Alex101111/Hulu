@@ -41,7 +41,7 @@ main >#presentation { display: flex; flex-direction: column;justify-content: cen
  main #imgz{ display: flex;flex-direction: column; justify-content: flex-start; padding :5%}
 
 .genre >ul li {display: inline;}
-li::after {content: " >"}
+.genre >ul li::after {content: " \2022"}
 
 
 
@@ -55,5 +55,12 @@ footer{
     background-color: #1D2126;
 }
 /*fin footer*/
-.description_bas > ul li {display: inline; }
-.description_bas >ul li :hover{background-color: lavenderblush;border-bottom: rgb(235, 235, 13); }
+.description_bas {padding: 5%;}
+.description_bas > ul li {display: inline ; margin-inline: 3%;}
+.description_bas >ul li:hover{background-color: rgb(12, 11, 11);border-bottom: rgb(255, 255, 255);display: inline; }
+
+
+.photos {display: flex;flex-direction: row;align-items: center; justify-content: space-around; margin-top: 5%;}
+
+
+.last {display: flex;flex-direction: row;align-items: center;justify-content: space-around; list-style-type: none;}
